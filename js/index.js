@@ -54,7 +54,6 @@ function getQuote() {
 	if (inIframe()) {
 		$('#tweet-quote').attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=aLamm&text=' + encodeURIComponent('"' + currentQuote + '" ' + currentAuthor));
 	}
-
 	$(document).ready(function () {
 	    $('html body').animate({
 	        backgroundColor: colors[randomcolor],
